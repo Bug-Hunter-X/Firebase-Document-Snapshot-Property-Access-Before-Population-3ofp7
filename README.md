@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Firebase when accessing properties of a document snapshot before the data is fully loaded. The `bug.js` file shows the incorrect implementation, which leads to undefined behavior. The solution, provided in `bugSolution.js`, uses async/await and proper error handling to ensure data is available before access.
